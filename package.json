@@ -1,0 +1,21 @@
+{
+  "name": "goit-markup-hw-07",
+  "version": "1.0.0",
+  "description": "web",
+  "main": "index.js",
+  "scripts": {
+   
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "goit-markup-hw-07"
+  },
+  "keywords": [
+    "iulian"
+  ],
+  "author": "iulian-zamfir",
+  "license": "ISC"
+}
+
+
