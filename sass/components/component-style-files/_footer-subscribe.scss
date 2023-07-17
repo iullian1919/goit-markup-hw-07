@@ -1,0 +1,58 @@
+/* Footer subscribe */
+
+.footer-subscribe {
+  padding-top: 72px;
+  font-weight: var(--font-weight-bold);
+  text-transform: uppercase;
+  color: #ffffff;
+  &__input {
+    display: flex;
+    padding-top: 20px;
+    gap: 12px;
+    padding-bottom: 93px;
+  }
+  &__input-mail {
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    top: 50%;
+    padding-top: 15px;
+    padding-left: 16px;
+    background: var(--footer-background-color);
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    resize: none;
+  }
+  &__btn {
+    background: #2196f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 10px 80px;
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-button);
+    line-height: var(--line-height-btn-request);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: var(--white-color);
+    border: none;
+    height: 50px;
+    max-width: 200px;
+    position: relative;
+    &:hover,
+    &:focus {
+      background: var(--btn-submit-hover);
+      transition: var(--transition);
+    }
+  }
+  &__icon-send {
+    left: 153px;
+    position: absolute;
+  }
+}

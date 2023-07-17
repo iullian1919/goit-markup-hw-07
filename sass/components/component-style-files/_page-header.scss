@@ -1,0 +1,21 @@
+.page-header {
+  border: 1px solid var(--border-page-header);
+  &__container {
+    display: flex;
+  }
+  &__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  & a:hover,
+  & a:focus {
+    color: var(--blue-color);
+    transition: var(--transition);
+  }
+  & a {
+    text-decoration: none;
+    font-weight: var(--font-weight-medium);
+    letter-spacing: var(--letter-spacing-small);
+  }
+}
